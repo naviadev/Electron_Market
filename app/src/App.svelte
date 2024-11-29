@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from "svelte";
-  import LoginModal from "./LoginModal.svelte";
-  import Card from "./Card.svelte";
+  import LoginModal from "./component/LoginModal.svelte";
+  import Card from "./component/Card.svelte";
 
   let isLoginModalOpen = false;
   const toggleLoginModal = () => {
